@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Suport IT la distanță</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">Suport IT Remote</div>
+
+        <h1>Suport IT la distanță</h1>
+
+        <p>Instalare programe • Instalare drivere • Configurare Windows</p>
+
+        <p><strong>Răspundem în 2–5 minute</strong></p>
+
+        <a class="cta" href="#formular">Solicită ajutor</a>
+
+    </header>
+
+    <section class="section">
+
+        <h2>Servicii</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Instalare drivere </h3>
+                <p>Instalăm și configurăm diverse echipamente pentru Windows.</p>
+            </div>
+
+            <div class="card">
+                <h3>Instalare programe</h3>
+                <p>Instalare Office și alte programe necesare.</p>
+            </div>
+
+            <div class="card">
+                <h3>Configurare Windows</h3>
+                <p>Optimizare și rezolvare erori Windows.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Programe pentru conectare</h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>AnyDesk</h3>
+
+                <a href="https://anydesk.com/en/downloads" target="_blank">
+                    <button>Descarcă AnyDesk</button>
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>TeamViewer</h3>
+
+                <a href="https://www.teamviewer.com/en/download/" target="_blank">
+                    <button>Descarcă TeamViewer</button>
+                </a>
+
+            </div>
+            <div class="card">
+
+                <h3>UltraViewer</h3>
+
+                <a href="https://www.ultraviewer.net/ru/download.html" target="_blank">
+                    <button>Descarcă UltraViewer</button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Preț</h2>
+
+        <p><strong>Conectarea începe de la 50 lei</strong></p>
+
+        <p>Plata prin transfer MIA sau CARD</p>
+
+        <p>Telefon: 069543039</p>
+
+        <a href="tel:069543039">
+            <button class="call">Sună acum</button>
+        </a>
+
+    </section>
+
+    <section class="section">
+
+        <h2 id="formular">Trimite cerere</h2>
+
+        <input type="text" id="name" placeholder="Numele" required>
+
+        <input type="tel" id="phone" placeholder="Telefon" required>
+
+        <select id="type" required>
+            <option value="">Tip problemă</option>
+            <option>Instalare drivere</option>
+            <option>Instalare programe</option>
+            <option>Configurare Windows</option>
+            <option>Eroare Windows</option>
+            <option>Altă problemă</option>
+        </select>
+
+        <textarea id="problem" placeholder="Descrie problema" required></textarea>
+
+        <button onclick="send()">Trimite pe WhatsApp</button>
+
+    </section>
+
+    <footer>
+
+        Disponibil zilnic 08:00 – 22:00
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
