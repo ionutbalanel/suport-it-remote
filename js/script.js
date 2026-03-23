@@ -5,7 +5,7 @@ function send() {
     var type = document.getElementById("type").value;
     var problem = document.getElementById("problem").value.trim();
 
-    if (name == "" || phone == "" || type == "" || problem == "") {
+    if (name === "" || phone === "" || type === "" || problem === "") {
 
         alert("Vă rugăm să completați toate câmpurile.");
 
@@ -14,10 +14,10 @@ function send() {
     }
 
     var text = "Salut! Am nevoie de suport IT.%0A%0A" +
-        "Nume: " + name +
-        "%0ATelefon: " + phone +
-        "%0ATip problemă: " + type +
-        "%0AProblema: " + problem;
+        "Nume: " + encodeURIComponent(name) +
+        "%0ATelefon: " + encodeURIComponent(phone) +
+        "%0ATip problemă: " + encodeURIComponent(type) +
+        "%0AProblema: " + encodeURIComponent(problem);
 
     var url = "https://wa.me/37369543039?text=" + text;
 

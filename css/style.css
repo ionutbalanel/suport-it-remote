@@ -93,16 +93,36 @@ select:focus {
     box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
 }
 
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
+.download-link {
+    display: inline-block;
+    background: #2563eb;
     color: white;
-    font-size: 26px;
-    padding: 15px;
-    border-radius: 50%;
+    padding: 12px 20px;
+    border-radius: 6px;
     text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.download-link:hover {
+    background: #1d4ed8;
+}
+
+.call-link {
+    display: inline-block;
+    background: #22c55e;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.call-link:hover {
+    background: #16a34a;
 }
 
 footer {
